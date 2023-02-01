@@ -4,7 +4,7 @@ import js.html.webgl.GL;
 import kha.graphics4.VertexData;
 
 class PipelineState extends PipelineStateBase {
-	var program: Dynamic = null;
+	public var program: Dynamic = null;
 	var textures: Array<String>;
 	var textureValues: Array<Dynamic>;
 
