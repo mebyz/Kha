@@ -89,10 +89,10 @@ class LoaderImpl {
 			#end
 			for (i in 0...desc.files.length) {
 				var file: String = desc.files[i];
-				if (file.endsWith(".ogg")) {
+				//if (file.endsWith(".ogg")) {
 					new WebAudioSound(file, done, failed);
 					return;
-				}
+				//}
 			}
 			failed({
 				url: desc.files.join(","),
