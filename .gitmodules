@@ -1,6 +1,6 @@
 [submodule "Tools/khamake"]
 	path = Tools/khamake
-	url = https://github.com/Kode/khamake.git
+	url = https://github.com/mebyz/khamake.git
 	branch = main
 [submodule "Backends/Kinc-hxcpp/khacpp"]
 	path = Backends/Kinc-hxcpp/khacpp
