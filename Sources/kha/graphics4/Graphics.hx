@@ -32,6 +32,7 @@ interface Graphics {
 	function setIndexBuffer(indexBuffer: IndexBuffer): Void;
 
 	function setTexture(unit: TextureUnit, texture: Image): Void;
+	function setTextureWebGLImage(unit: TextureUnit, texture: WebGLImage): Void;
 	function setTextureDepth(unit: TextureUnit, texture: Image): Void;
 	function setTextureArray(unit: TextureUnit, texture: Image): Void;
 	function setVideoTexture(unit: TextureUnit, texture: Video): Void;
