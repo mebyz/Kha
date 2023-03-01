@@ -14,7 +14,7 @@ class CanvasImage extends Image {
 
 	static var context: Dynamic;
 
-	var data: Dynamic;
+	public var data: Dynamic;
 
 	var myWidth: Int;
 	var myHeight: Int;
@@ -54,7 +54,7 @@ class CanvasImage extends Image {
 		return graphics1;
 	}
 
-	override function get_g2(): kha.graphics2.Graphics {
+	override public function get_g2(): kha.graphics2.Graphics {
 		if (g2canvas == null) {
 			var canvas: Dynamic = Browser.document.createElement("canvas");
 			image = canvas;
@@ -128,7 +128,7 @@ class CanvasImage extends Image {
 		data = context.getImageData(0, 0, image.width, image.height);
 	}
 
-	var texture: Dynamic;
+	public var texture: Dynamic;
 
 	static function upperPowerOfTwo(v: Int): Int {
 		v--;
